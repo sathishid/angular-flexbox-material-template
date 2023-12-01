@@ -1,25 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style></style>
-    <title>Holy Grail Layout</title>
-  </head>
-  <body>
-    <main>
-      <div class="side-column">
-        <app-navbar></app-navbar>
-      </div>
+<main>
+  <div class="side-column">
+    <app-navbar></app-navbar>
+  </div>
 
-      <div class="main-content">
-        <h2>Main Content</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
-      </div>
-    </main>
+  <div class="main-content">
+    <router-outlet></router-outlet>
+  </div>
+</main>
 
-    <footer>
-      <app-footer></app-footer>
-    </footer>
-  </body>
-</html>
+<footer>
+  <app-footer></app-footer>
+</footer>
